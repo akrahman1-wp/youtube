@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+    color: #fff;
+}
+:root{
+    --main-font-size:18px;
+    --pra-font-size:14px;
+    --main-color: #909090;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    box-shadow: 0 2px 25px 2px rgba(0, 0, 0, 0.191);
+    background-color: #202020;
+    
+}
+.menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.search-mic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 30px;
+}
+.search-mic span{
+    color: #6F6F6F;
+    padding: 6px 30px;
+    background-color: #323232;
+    border-radius: 2px;
+    margin-left: -5px;
+}
+.search-mic img{
+    width: 42px;
+}
+.search-mic input{
+        width: 550px;
+        padding: 7px 20px;
+        background-color: #121212;
+        color: #ececec;
+        border: 1px solid rgba(82, 82, 82, 0.445);
+}
+
+
+
+
+.others{
+    padding-right: 30px;
+}
+.others ul{
+    display: flex;
+}
+.others ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+.others ul li img{
+    width: 42px;
+}
+
+
+.container2{
+    width: 87%;
+    margin: 0 auto;
+   justify-content: space-between;
+   margin-top: 40px;
+    
+}
+.ro{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.left-section{
+    width: 65%;
+    margin-right: 40px;
+}
+.right-section{
+    width: 30%;
+}
+.video{
+    width: 530px;
+}
+.contents{
+    width: 112%;
+}
+.contents > span{
+    font-size: var(--pra-font-size);
+    color: rgb(73, 73, 251);
+}
+.contents h2{
+    font-size: var(--main-font-size);
+    line-height: 40px;
+}
+.flex1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0px;
+        border-bottom: 1px solid #323232;
+}
+
+
+.channel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+
+}
+.channel2{
+    width: 110%;
+    border-bottom: 1px solid #323232;
+    padding-bottom: 20px;
+}
+.channel2 > h2{
+    font-size: var(--pra-font-size);
+    padding-left: 40px;
+}
+.channel2 .niche{
+    font-size: var(--pra-font-size);
+    margin-top: 10px;
+    color: var(--main-color);
+    padding-left: 40px;
+    display: inline-block;
+}
+.channel-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont-ch{
+    padding: 5px 10px;
+}
+.cont-ch h2{
+    font-size: var(--pra-font-size);
+}
+.cont-ch p{
+    font-size: var(--pra-font-size);
+    color: var(--main-color);
+}
+.channel-righ h2{
+    font-size: var(--main-font-size);
+    background-color: var(--main-color);
+    padding: 7px 20px;
+    border-radius: 2px;
+}
+.view p{
+    font-size: var(--pra-font-size);
+    color: var(--main-color);
+}
+.liess span{
+    color: var(--main-color);
+    padding: 10px 5px;
+}
+.liess ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.liess ul li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px 5px;
+}
+.liess ul li img{
+    width: 39px;
+    box-sizing: border-box;
+}
+.left-section{
+    width: 50%;
+}
+
+.right-section ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.right-section ul li{
+    list-style: none;
+}
+.right-section ul li img{
+    width: 70%;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+}
+.right-section img{
+    width: 90%;
+    padding-right: 10px 0px;
+    padding-left: 30px;
+}
+
+.flex3{
+    display: flex;
+    justify-content: space-between;
+    width: 150%;
+    padding: 5px 0px;
+}
+.co{
+    /* padding-left: 50px; */
+    width: 100%;
+    padding-top: 5px;
+}
+.co h2{
+    font-size: var(--pra-font-size);
+    line-height: 22px;
+}
+.co p{
+    font-size: var(--pra-font-size);
+    color: var(--main-color);
+    line-height: 20px;
+}
